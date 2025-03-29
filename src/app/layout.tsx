@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ModeToggle } from "@/components/mode-toggle";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://valida-mx.axol.dev'),
@@ -49,6 +50,7 @@ export default function RootLayout({
         >
           <ModeToggle />
           {children}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
