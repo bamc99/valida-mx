@@ -31,7 +31,7 @@ Este proyecto fue creado con la colaboración entre el modelo GPT-4 y el desarro
   {
     "rfc": "XAXX010101000",
     "omitVerificationDigit": false
-  }```
+  }
   
 ### `/api/validate/curp`
 - **Método**: `POST`
@@ -40,4 +40,4 @@ Este proyecto fue creado con la colaboración entre el modelo GPT-4 y el desarro
   ```json
   {
     "curp": "XAXX930411HDFRNN09"
-  }```
+  }
