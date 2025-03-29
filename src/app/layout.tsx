@@ -6,6 +6,9 @@ import { ModeToggle } from "@/components/mode-toggle";
 export const metadata: Metadata = {
   title: "Valida MX",
   description: "Valida tu RFC y CURP fácilmente.",
+  icons: {
+    icon: "/favicon-vmx.svg", // Agregar el favicon aquí
+  },
 };
 
 export default function RootLayout({
