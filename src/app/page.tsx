@@ -2,7 +2,7 @@ import CurpVerifier from "@/components/curp-verifier";
 import RfcVerifier from "@/components/rfc-verifier";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { File, IdCard } from "lucide-react";
+import { File, Github, IdCard } from "lucide-react";
 
 export default function Home() {
   return (
@@ -65,7 +65,9 @@ export default function Home() {
         </Tabs>
 
         <footer className="mt-8 text-center text-sm text-neutral-500">
-          <p>© {new Date().getFullYear()} Verificador de Documentos Mexicanos</p>
+          <a href="https://github.com/bamc99/valida-mx" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2">
+            <Github />
+          </a>
         </footer>
       </div>
     </main>

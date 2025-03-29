@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { ModeToggle } from "@/components/mode-toggle";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://valida-mx.axol.dev'),
   title: "Valida MX - Valida tu RFC y CURP fácilmente",
   description: "Valida MX es una herramienta rápida y sencilla para validar RFC y CURP en México. Creada en una hora con la ayuda de inteligencia artificial como práctica de desarrollo web.",
   keywords: ["RFC", "CURP", "validación RFC", "validación CURP", "IA", "inteligencia artificial", "práctica", "desarrollo web", "Next.js", "React", "TypeScript", "Vercel", "validación México"],
