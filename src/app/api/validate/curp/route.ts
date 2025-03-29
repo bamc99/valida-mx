@@ -1,4 +1,4 @@
-// @ts-expect-error
+// @ts-expect-error Ignorar error debido a que la librería aún no tiene soporte completo para TypeScript
 import validateCurp from "validate-curp";
 
 // Tipos de datos para la solicitud
