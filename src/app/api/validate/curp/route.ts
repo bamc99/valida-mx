@@ -1,4 +1,4 @@
-// @ts-ignore
+// @ts-expect-error
 import validateCurp from "validate-curp";
 
 // Tipos de datos para la solicitud

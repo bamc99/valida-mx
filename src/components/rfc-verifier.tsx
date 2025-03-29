@@ -74,6 +74,7 @@ export default function RfcVerifier() {
         })
       }
     } catch (error) {
+      console.log(error);
       setVerificationResult({
         status: "error",
         message: "Error al procesar la solicitud. Intente nuevamente.",

@@ -82,7 +82,7 @@ export async function POST(req: Request) {
   } catch (error) {
     // Capturamos errores de la solicitud (por ejemplo, si no se puede parsear el JSON)
     return new Response(
-      JSON.stringify({ error: "Hubo un error al procesar la solicitud." }),
+      JSON.stringify({ error: "Hubo un error al procesar la solicitud.", details: error }),
       { status: 500 }
     );
   }

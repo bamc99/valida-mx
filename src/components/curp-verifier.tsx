@@ -63,6 +63,7 @@ export default function CurpVerifier() {
         });
       }
     } catch (error) {
+      console.log(error);
       setVerificationResult({
         status: "error",
         message: "Error al procesar la solicitud. Intente nuevamente.",

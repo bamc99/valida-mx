@@ -15,9 +15,6 @@ export default function Home() {
 
       <div className="relative w-full max-w-3xl z-10">
         <div className="flex flex-col items-center mb-8">
-          {/* <div className="w-16 h-16 mb-4">
-            <MexicoEagleIcon />
-          </div> */}
           <h1 className="text-3xl font-bold text-center mb-2 ">Verificador de RFC y CURP</h1>
           <p className="text-center max-w-md">
             Sistema de verificación de documentos oficiales mexicanos
@@ -72,25 +69,5 @@ export default function Home() {
         </footer>
       </div>
     </main>
-  )
-}
-
-function MexicoEagleIcon() {
-  return (
-    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="text-slate-800">
-      <path
-        d="M50,5C25.1,5,5,25.1,5,50s20.1,45,45,45s45-20.1,45-45S74.9,5,50,5z M74.3,68.9c-1.4,1.4-3.6,1.4-5,0
-        c-1.4-1.4-1.4-3.6,0-5c1.4-1.4,3.6-1.4,5,0C75.7,65.3,75.7,67.5,74.3,68.9z M50,75c-2,0-3.5-1.6-3.5-3.5c0-2,1.6-3.5,3.5-3.5
-        c2,0,3.5,1.6,3.5,3.5C53.5,73.4,52,75,50,75z M50,65c-8.3,0-15-6.7-15-15c0-8.3,6.7-15,15-15c8.3,0,15,6.7,15,15
-        C65,58.3,58.3,65,50,65z M25.7,68.9c-1.4-1.4-1.4-3.6,0-5c1.4-1.4,3.6-1.4,5,0c1.4,1.4,1.4,3.6,0,5
-        C29.3,70.3,27.1,70.3,25.7,68.9z M28.2,36.1c-1.4-1.4-1.4-3.6,0-5c1.4-1.4,3.6-1.4,5,0c1.4,1.4,1.4,3.6,0,5
-        C31.8,37.5,29.6,37.5,28.2,36.1z M50,25c-2,0-3.5-1.6-3.5-3.5c0-2,1.6-3.5,3.5-3.5c2,0,3.5,1.6,3.5,3.5C53.5,23.4,52,25,50,25z
-        M71.8,36.1c-1.4-1.4-1.4-3.6,0-5c1.4-1.4,3.6-1.4,5,0c1.4,1.4,1.4,3.6,0,5C75.4,37.5,73.2,37.5,71.8,36.1z"
-      />
-      <path
-        d="M50,40c-5.5,0-10,4.5-10,10c0,5.5,4.5,10,10,10c5.5,0,10-4.5,10-10C60,44.5,55.5,40,50,40z M50,55
-        c-2.8,0-5-2.2-5-5c0-2.8,2.2-5,5-5c2.8,0,5,2.2,5,5C55,52.8,52.8,55,50,55z"
-      />
-    </svg>
   )
 }
